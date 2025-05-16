@@ -1,4 +1,18 @@
+body {
+  background: #e3f9e9;
+  font-family: sans-serif;
+}
+
 p {
-    color: red;
-    background-color: black;
+    margin-left: 40px;
+    color: rgb(135, 108, 252);
+}
+.Recipes-list{
+    display: block;
+    width: 600px;
+    padding: 10px;
+    margin: 40px;
+    border: 10px black;
+    background: #b2defc;
+    
 }
