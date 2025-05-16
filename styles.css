@@ -1,18 +1,42 @@
 body {
-  background: #e3f9e9;
+  background: #f7fffa;
   font-family: sans-serif;
+  margin-left: 200px;
 }
 
-p {
-    margin-left: 40px;
-    color: rgb(135, 108, 252);
-}
 .Recipes-list{
     display: block;
-    width: 600px;
-    padding: 10px;
-    margin: 40px;
-    border: 10px black;
-    background: #b2defc;
-    
+    box-sizing: border-box;
+    width: 900px;
+    padding: 30px;
+    border-top: 12px solid #e746cf;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;;
+}
+
+.recipe-overview{
+    display: block;
+    box-sizing: content-box;
+    text-align: center;
+    width: 900px;
+    height: 270px;
+    padding: 1px;
+    border-top: 12px solid #e7ab46;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;;
+}
+.inline-3{
+    text-align: center;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Nutrition-facts{
+    text-align: center;
+    border-top: 1px solid #c1d7c8;
+    margin-top: 20px;
 }
